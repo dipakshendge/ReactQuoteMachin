@@ -1,0 +1,47 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: baseline;
+    background-color:aqua;
+}
+.main{
+    border: 2px solid ;
+    width: 500px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    color: aqua;
+}
+#author{
+    float: right;
+}
+#new-quote{
+    float: right;
+    padding: 10px;
+    color: #fff;
+    background-color:aqua;
+}
+#quote-text{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    word-wrap: break-word;
+   
+}
+#tweet-quote{
+    border: 1px solid black;
+    padding: 6px;
+    color: #fff;
+    text-decoration: none;
+    background-color:aqua;
+}
+span{
+    text-align: end;
+}
+
+  
