@@ -23,9 +23,10 @@ const Quote=(()=>{
   },[],2000);
 
   const getQuote=(()=>{
-    fetch("https://type.fit/api/quotes")
+    fetch("https://dummyjson.com/quotes?limit=3000")
     .then((res)=>{return res.json();})
     .then((data)=>{
+	    console.log(data)
         const random=Math.floor(Math.random()*data.length);
         setQuote(data[random]);
     })
